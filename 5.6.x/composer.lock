@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "85f3f11aca5128473e6c73bcb8b92891",
+    "content-hash": "5d562311651d9e635500d0642a0b432b",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -964,6 +964,92 @@
                 "random"
             ],
             "time": "2017-09-27T21:40:39+00:00"
+        },
+        {
+            "name": "psgc-laravel-packages/accessControl",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/psgc-laravel-packages/accessControl.git",
+                "reference": "1c421fa2b255ac920518624f9530a1219e76aaa1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/psgc-laravel-packages/accessControl/zipball/1c421fa2b255ac920518624f9530a1219e76aaa1",
+                "reference": "1c421fa2b255ac920518624f9530a1219e76aaa1",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PsgcLaravelPackages\\AccessControl\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "psgc-laravel-packages",
+                    "email": "peter@peltronic.com"
+                }
+            ],
+            "description": "Access control for middleware use",
+            "keywords": [
+                "laravel",
+                "utils"
+            ],
+            "support": {
+                "source": "https://github.com/psgc-laravel-packages/accessControl/tree/master",
+                "issues": "https://github.com/psgc-laravel-packages/accessControl/issues"
+            },
+            "time": "2018-03-03T00:47:53+00:00"
+        },
+        {
+            "name": "psgc-laravel-packages/dataseeder",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/psgc-laravel-packages/dataseeder.git",
+                "reference": "17827f14b69e448d0e0992b7cc24abd4c84de7cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/psgc-laravel-packages/dataseeder/zipball/17827f14b69e448d0e0992b7cc24abd4c84de7cc",
+                "reference": "17827f14b69e448d0e0992b7cc24abd4c84de7cc",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "~5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PsgcLaravelPackages\\DataSeeder\\": "src/"
+                }
+            },
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "psgc-laravel-packages",
+                    "email": "peter@peltronic.com"
+                }
+            ],
+            "description": "Access control for middleware use",
+            "keywords": [
+                "laravel",
+                "utils"
+            ],
+            "support": {
+                "source": "https://github.com/psgc-laravel-packages/dataseeder/tree/master",
+                "issues": "https://github.com/psgc-laravel-packages/dataseeder/issues"
+            },
+            "time": "2018-03-03T01:26:42+00:00"
         },
         {
             "name": "psgc-laravel-packages/utils",
@@ -4050,7 +4136,9 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "psgc-laravel-packages/utils": 20
+        "psgc-laravel-packages/dataseeder": 20,
+        "psgc-laravel-packages/utils": 20,
+        "psgc-laravel-packages/accesscontrol": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
