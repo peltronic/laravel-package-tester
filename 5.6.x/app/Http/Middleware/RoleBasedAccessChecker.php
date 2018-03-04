@@ -5,7 +5,7 @@ use PsgcLaravelPackages\AccessControl\AccessManager;
 class RoleBasedAccessChecker extends AccessManager
 {
 
-    protected function getAccessMatrix() {
+    protected function accessMatrix() {
         return [
 
             'site.dashboard.show'=>[
@@ -20,7 +20,7 @@ class RoleBasedAccessChecker extends AccessManager
                 'project-manager'=>'all',
             ],
         ];
-    } // getAccessMatrix()
+    } // accessMatrix()
 
 }
 
