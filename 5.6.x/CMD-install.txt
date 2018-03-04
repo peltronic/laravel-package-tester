@@ -1,0 +1,16 @@
+
+1. In order to install Laravel 5 Entrust, just add the following to your composer.json. Then run composer update:
+
+    "zizaco/entrust": "5.2.x-dev"
+
+2. Open your config/app.php and add the following to the providers array:
+
+    Zizaco\Entrust\EntrustServiceProvider::class,
+
+3. In the same config/app.php and add the following to the aliases array:
+
+    'Entrust'   => Zizaco\Entrust\EntrustFacade::class,
+
+$ composer update
+$ php artisan vendor:publish
+$ cp vendor/zizaco/entrust/src/config/config.php config/entrust.php
