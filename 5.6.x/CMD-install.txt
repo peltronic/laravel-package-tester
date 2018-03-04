@@ -14,3 +14,6 @@
 $ composer update
 $ php artisan vendor:publish
 $ cp vendor/zizaco/entrust/src/config/config.php config/entrust.php
+
+### needed for sqlite DB!
+$ php artisan config:cache
